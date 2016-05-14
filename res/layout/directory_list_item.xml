@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants"
+    android:gravity="top"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp" >
+
+        <com.eboxlive.ebox.image.RecyclingImageView
+            android:id="@+id/dirImage"
+            android:layout_width="@dimen/directory_item_width"
+            android:layout_height="@dimen/directory_item_height"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="12dp"
+            android:scaleType="fitXY" />
+
+        <TextView
+            android:id="@+id/dirBiaoTi"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/dirImage"
+            android:layout_marginRight="10dp"
+            android:layout_toRightOf="@+id/dirImage"
+            android:paddingLeft="10dp"
+            android:text="@string/jianjie"
+            android:textSize="@dimen/small_font_size1" />
+
+        <TextView
+            android:id="@+id/dirTimeText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/dirImage"
+            android:layout_alignLeft="@+id/dirBiaoTi"
+            android:paddingLeft="10dp"
+            android:text="日期：2013-03-12 12:32:32"
+            android:textColor="@color/lightgray"
+            android:textSize="@dimen/small_font_size2" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:src="@drawable/lightgray" />
+
+</LinearLayout>

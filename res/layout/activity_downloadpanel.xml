@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/dplistView"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/download_panel_list_h" >
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/download_panel_bt_h"
+        android:layout_marginTop="10dp"
+        android:gravity="left|center_vertical"
+        android:background="@color/lightgray3"
+        android:padding="5dp">
+        <TextView
+            android:id="@+id/dpTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.71" />
+
+        <Button
+            android:id="@+id/dbBtn"
+            android:layout_width="80dp"
+            android:layout_height="35dp"
+            android:background="@drawable/down_panel_btn"
+            android:text="@string/xiazai"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</LinearLayout>

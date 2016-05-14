@@ -1,0 +1,84 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+        <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
+    -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+         <item name="android:actionBarStyle">@style/myActionBarStyle</item>
+    </style>
+    
+    <style name="NewAppTheme" parent="Theme.AppCompat.Light">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+         <item name="android:actionBarStyle">@style/myActionBarStyle</item>
+    </style>
+    
+    <!-- ActionBar style -->
+    <style name="myActionBarStyle" parent="android:Widget.ActionBar" >  
+        <item name="android:background">#00bc83</item>  
+        <item name="android:titleTextStyle">@style/AcBar_titleStyle</item>  
+    </style>  
+    <style name="AcBar_titleStyle">  
+        <item name="android:textSize">18sp</item>  
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:text">@string/main_title</item>  
+    </style>  
+    
+    <!-- StartActivity theme -->
+    <style name="StartActivityTheme" parent="AppBaseTheme">
+        <item name="android:windowNoTitle">true</item>  
+		<item name="android:windowActionBar">false</item>
+        <item name="android:windowBackground">@drawable/player_page_bg</item>
+    </style>
+    
+    <!-- Chat Item Style -->
+    <style name="chat_text_date_style">
+	    <item name="android:padding">4dp</item>    
+		<item name="android:textColor">#000000</item>   
+		<item name="android:textSize">12sp</item>      
+		<!-- <item name="android:background">@drawable/chatitem_time</item> -->
+	</style>
+	<style name="chat_content_date_style">
+	    <item name="android:minHeight">50dp</item>
+	    <item name="android:gravity">left|center</item>    
+		<item name="android:textColor">#000000</item>   
+		<item name="android:textSize">15sp</item>      
+		<item name="android:lineSpacingExtra">2dp</item>   
+		<item name="android:clickable">true</item>   
+		<item name="android:focusable">true</item>   
+		<item name="android:background">#bfbfbf</item> 
+	</style>
+	<style name="chat_text_name_style">  
+		<item name="android:textColor">#818181</item>   
+		<item name="android:textSize">15sp</item>      
+		<item name="android:gravity">center</item> 
+	</style>
+	
+	<!-- Alert Dialog Style -->
+	<style name="alert_dialog" parent="@android:style/Theme.Holo.Light.Dialog">  
+	   	<item name="android:windowFrame">@null</item>      
+	   	<item name="android:windowIsFloating">true</item>      
+	   	<item name="android:windowIsTranslucent">false</item>      
+	   	<item name="android:windowNoTitle">true</item><!--隐藏标题栏-->     
+	   	<item name="android:background">@color/white</item>      
+	   	<item name="android:windowBackground">@color/transparent</item><!--这儿也很重要啊，我这儿用了一张透明的.9.png的图，当然用#00000000也是可以的，否则的话这儿出来后有一个黑色的背景-->     
+	   	<item name="android:backgroundDimEnabled">false</item>    
+	</style>
+	<!-- Universal.Widget.ProgressBar Style -->
+	<style name="Universal.Widget.ProgressBar" parent="@android:style/Widget.ProgressBar">
+        <item name="android:indeterminateDrawable">@drawable/uvv_progress_rotate</item>
+        <item name="android:indeterminateDuration">1000</item>
+    </style>
+
+</resources>

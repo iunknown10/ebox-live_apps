@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/searchLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#256b45" >
+
+        <Button
+            android:id="@+id/searchBackBtn"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:background="@drawable/back_btn"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp"
+            android:scaleX="1.2"
+            android:scaleY="1.2" />
+
+        <EditText
+            android:id="@+id/searchInputText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10" >
+
+            <requestFocus />
+        </EditText>
+
+    </LinearLayout>
+
+</LinearLayout>

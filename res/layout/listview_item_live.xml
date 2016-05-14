@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:paddingTop="8dp"
+    android:paddingBottom="10dp"
+    android:orientation="horizontal" >
+
+    <com.eboxlive.ebox.image.RecyclingImageView
+        android:id="@+id/liveThumb"
+        android:layout_marginLeft="8dp"
+        android:layout_width="@dimen/list_item_width"
+        android:layout_height="@dimen/list_item_height"
+        android:scaleType="fitXY" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/list_item_height"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/liveBiaoti"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/live_title_height"
+            android:textSize="@dimen/tab_font_size"
+            android:paddingLeft="10dp"
+            android:ellipsize="end"
+            android:text="TED本系列课程讲述的是身上的发生的发送到asdfa" />
+
+        <TextView
+            android:id="@+id/liveCategory"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingTop="5dp"
+            android:textColor="@color/lightgray"
+            android:textSize="@dimen/small_font_size2"
+            android:text="@string/kemu" />
+
+        <TextView
+            android:id="@+id/liveAuthor"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:textColor="@color/lightgray"
+            android:textSize="@dimen/small_font_size2"
+            android:text="@string/zuozhe" />
+
+        <TextView
+            android:id="@+id/liveTime"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:gravity="right"
+            android:paddingRight="10dp"
+            android:text="2015-04-22 23:30:39"
+            android:textColor="@color/lightgray"
+            android:textSize="@dimen/small_font_size2" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

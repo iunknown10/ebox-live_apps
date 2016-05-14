@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<drawable name="white">#FFFFFF</drawable>		<!--白色 --> 
+<drawable name="black">#000000</drawable>		<!--黑色 -->
+<drawable name="ivory">#FFFFF0</drawable>		<!--象牙色 -->
+<drawable name="lightyellow">#FFFFE0</drawable>	<!--亮黄色 -->
+<drawable name="yellow">#FFFF00</drawable>		<!--黄色 -->
+<drawable name="snow">#FFFAFA</drawable>		<!--雪白色 -->
+<drawable name="floralwhite">#FFFAF0</drawable>	<!--花白色 -->
+<drawable name="lemonchiffon">#FFFACD</drawable><!--柠檬绸色 -->
+<drawable name="cornsilk">#FFF8DC</drawable>	<!--米绸色 -->
+<drawable name="darkgreen">#40756c</drawable>
+<drawable name="darkgreen2">#18432d</drawable>
+<drawable name="lightgray">#408c8c8c</drawable>
+<drawable name="lightgreen">#22841b</drawable>
+<color name="uvv_gray">#969696</color>
+<color name="uvv_black">#ff000000</color>
+<color name="uvv_light_gray">#ffF0F0F0</color>
+<color name="uvv_titlebar_bg">#7f000000</color>
+</resources>

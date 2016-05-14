@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/questionListview"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/detail_chat_listview_h"
+        android:divider="@null" >
+    </ListView>
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/gray1">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/lightgray" />
+
+        <Button
+            android:id="@+id/sendQuestionBtn"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/send_msg_btn" />
+
+        <EditText
+            android:id="@+id/questionEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/sendQuestionBtn"
+            android:layout_alignBottom="@+id/sendQuestionBtn"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toLeftOf="@+id/sendQuestionBtn"
+            android:ems="10" />
+
+    </RelativeLayout>
+
+</LinearLayout>

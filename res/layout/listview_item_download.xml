@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/thumbImg"
+        android:layout_width="@dimen/download_small_width"
+        android:layout_height="@dimen/download_small_height"
+        android:layout_margin="6dp"
+        android:src="@drawable/default_image" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="6dp"
+        android:layout_marginTop="6dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/downNameText"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/download_bottom_height"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/download_list_title_size"
+            android:text="@string/ceshi" />
+
+        <ProgressBar
+            android:id="@+id/downProgress"
+            style="@android:style/Widget.ProgressBar.Horizontal"  
+            android:layout_width="match_parent"
+            android:layout_marginTop="6dp"
+            android:progressDrawable="@drawable/download_progress"
+            android:clickable="false"
+            android:focusableInTouchMode="false"
+            android:layout_height="4dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/download_bottom_height"
+            android:gravity="right|center_vertical" >
+
+            <TextView
+                android:id="@+id/pauseText"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:gravity="right|center_vertical"
+                android:textColor="#005500"
+                android:textSize="@dimen/small_font_size2"
+                android:text="@string/ceshi" />
+
+            <TextView
+                android:id="@+id/downSizeText"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.68"
+                android:textSize="@dimen/small_font_size2"
+                android:gravity="right|center_vertical"
+                android:text="@string/ceshi" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

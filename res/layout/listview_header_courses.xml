@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="10dp" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="12dp"
+        android:paddingTop="15dp"
+        android:textColor="@color/lightgray"
+        android:text="@string/laiyuan" />
+
+    <GridView
+        android:id="@+id/gridView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numColumns="4"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="10dp"
+        android:choiceMode="singleChoice"
+        android:scrollbars="none" >
+
+    </GridView>
+
+</LinearLayout>

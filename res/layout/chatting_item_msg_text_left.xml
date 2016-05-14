@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="6dp" >
+
+    <TextView
+        android:id="@+id/tv_chatcontent"
+        style="@style/chat_content_date_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/iv_userhead"
+        android:layout_toRightOf="@+id/iv_userhead"
+        android:background="@drawable/chatfrom_bg"
+        android:text="sdfsdfsdfsd" />
+
+    <com.eboxlive.ebox.view.CircleImageView
+        android:id="@+id/iv_userhead"
+        android:layout_width="@dimen/chat_head_image_height"
+        android:layout_height="@dimen/chat_head_image_height"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:clickable="true"
+        android:onClick="head_xiaohei"
+        android:src="@drawable/xiaohei"
+        app:border_color="@color/lightgray2"
+        app:border_width="1dp" />
+
+    <TextView
+        android:id="@+id/tv_username"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="7dp"
+        android:layout_toRightOf="@+id/iv_userhead"
+        android:gravity="center_vertical|left"
+        android:text="sdfsdf"
+        android:textColor="#818181"
+        android:textSize="@dimen/small_font_size1" />
+
+    <TextView
+        android:id="@+id/tv_sendtime"
+        style="@style/chat_text_date_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:layout_alignLeft="@+id/tv_chatcontent"
+        android:layout_below="@+id/tv_chatcontent"
+        android:text="sesg"
+        android:textColor="#818181"
+        android:textSize="@dimen/small_font_size3" />
+
+</RelativeLayout>

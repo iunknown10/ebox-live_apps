@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <!-- 允许在2G/3G/4G下观看 -->
+    <LinearLayout
+        android:id="@+id/allowPlayLayout"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:background="@drawable/me_list_item"
+        android:clickable="true"  
+        android:gravity="left|center_vertical"
+        android:padding="10dp" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="0dp"
+            android:layout_weight="1.02"
+            android:gravity="center_vertical"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textSize="@dimen/courses_category_fontsize"
+            android:text="@string/yunxukangprs" />
+
+        <CheckBox
+            android:id="@+id/CheckBox01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/lightgray3" >
+    </LinearLayout>
+    <!-- 允许在2G/3G/4G下载 -->
+    <LinearLayout
+        android:id="@+id/allowLoadLayout"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:background="@drawable/me_list_item"
+        android:clickable="true"  
+        android:gravity="left|center_vertical"
+        android:padding="10dp" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1.02"
+            android:gravity="center_vertical"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:textSize="@dimen/courses_category_fontsize"
+            android:text="@string/yunxuxiazaigprs" />
+
+        <CheckBox
+            android:id="@+id/CheckBox02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/lightgray3" >
+    </LinearLayout>
+    <!-- 下载管理 -->
+
+    <LinearLayout
+        android:id="@+id/loadManagerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:background="@drawable/me_list_item"
+        android:clickable="true"
+        android:gravity="left|center_vertical" 
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="0.48"
+            android:gravity="left|center_vertical"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/courses_category_fontsize"
+                android:text="@string/xiazaiguanli" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/lightgray"
+                android:text="@string/xuanzexiazai" />
+        </LinearLayout>
+
+        <CheckBox
+            android:id="@+id/checkBox1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/lightgray3" >
+    </LinearLayout>
+    <!-- 清楚缓存 -->
+    <LinearLayout
+        android:id="@+id/clearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:background="@drawable/me_list_item"
+        android:clickable="true"  
+        android:gravity="left|center_vertical"
+        android:padding="10dp" >
+
+        <TextView
+            android:id="@+id/clearText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textSize="@dimen/courses_category_fontsize"
+            android:text="@string/qingchuhuancun" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/lightgray3" >
+    </LinearLayout>
+    <!-- 意见反馈 -->
+    <LinearLayout
+        android:id="@+id/opinionLayout"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:background="@drawable/me_list_item"
+        android:clickable="true"  
+        android:gravity="left|center_vertical"
+        android:padding="10dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textSize="@dimen/courses_category_fontsize"
+            android:text="@string/yijianfankui" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/lightgray3" >
+    </LinearLayout>
+    <!-- 关于 -->
+    <LinearLayout
+        android:id="@+id/aboutLayout"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:background="@drawable/me_list_item"
+        android:clickable="true"  
+        android:gravity="left|center_vertical"
+        android:padding="10dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textSize="@dimen/courses_category_fontsize"
+            android:text="@string/guanyu" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/lightgray3" >
+    </LinearLayout>
+    <!-- 应用推荐 -->
+    <LinearLayout
+        android:id="@+id/appLayout"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:background="@drawable/me_list_item"
+        android:clickable="true"  
+        android:gravity="left|center_vertical"
+        android:padding="10dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textSize="@dimen/courses_category_fontsize"
+            android:text="@string/yingyongtuijian" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/lightgray3" >
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="10dp" >
+
+    <Button
+        android:id="@+id/categroryBn1"
+        android:layout_width="70dp"
+        android:layout_height="35dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:background="@drawable/courses_category_button"
+        android:textColor="@drawable/courses_category_button_color"
+        android:textSize="@dimen/courses_category_fontsize"
+        android:text="@string/anredu" />
+
+    <Button
+        android:id="@+id/categroryBn2"
+        android:layout_width="70dp"
+        android:layout_height="35dp"
+        android:layout_alignBaseline="@+id/categroryBn1"
+        android:layout_alignBottom="@+id/categroryBn1"
+        android:layout_marginLeft="19dp"
+        android:layout_toRightOf="@+id/categroryBn1"
+        android:background="@drawable/courses_category_button"
+        android:text="@string/anpingfen"
+        android:textColor="@drawable/courses_category_button_color"
+        android:textSize="@dimen/courses_category_fontsize" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="14dp"
+        android:text="@string/laiyuan"
+        android:textColor="@color/lightgray"
+        android:textSize="@dimen/courses_category_fontsize" />
+
+</RelativeLayout>

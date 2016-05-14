@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/downloadList"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/download_panel_list_h">
+    </ListView>
+
+    <LinearLayout
+        android:id="@+id/downLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/download_panel_bt_h"
+        android:background="@color/lightgray3"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:padding="5dp" >
+
+        <Button
+            android:id="@+id/allStart"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:background="@drawable/all_pause_down_btn"
+            android:text="@string/quanbukaishi" />
+
+        <Button
+            android:id="@+id/allPause"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/all_pause_down_btn"
+            android:text="@string/quanbuzanting" />
+    </LinearLayout>
+
+</LinearLayout>

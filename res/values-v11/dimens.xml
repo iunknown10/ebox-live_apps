@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="startbtn_margin_bottom">100dp</dimen>
+    <dimen name="detail_videoview_height">200dp</dimen>
+    <dimen name="courses_category_fontsize">16sp</dimen>
+    <dimen name="tab_font_size">16sp</dimen>
+    <dimen name="detail_play_width">70dp</dimen>
+    <dimen name="detail_play_top">80dp</dimen>
+    <dimen name="list_item_width">160dp</dimen>
+    <dimen name="list_item_height">90dp</dimen>
+    <dimen name="tab_host_height">40dp</dimen>
+    <dimen name="header_height">60dp</dimen>
+    <dimen name="footer_height">90dp</dimen>
+    <dimen name="footer_padding">10dp</dimen>
+    <dimen name="small_font_size1">14sp</dimen>
+    <dimen name="small_font_size2">12sp</dimen>
+    <dimen name="small_font_size3">10sp</dimen>
+    <dimen name="big_font_size1">20sp</dimen>
+    <dimen name="category_item_height">30dp</dimen>
+	<dimen name="detail_chat_listview_h">230dp</dimen>
+	<dimen name="directory_item_width">100dp</dimen>
+    <dimen name="directory_item_height">56dp</dimen>
+	<dimen name="download_small_height">67dp</dimen>
+	<dimen name="download_small_width">120dp</dimen>
+	<dimen name="download_bottom_height">30dp</dimen>
+	<dimen name="download_panel_bt_h">55dp</dimen>
+	<dimen name="download_panel_list_h">505dp</dimen>
+	<dimen name="detail_media_control_h">40dp</dimen>
+	<dimen name="download_list_title_size">14sp</dimen>
+	<dimen name="chat_head_image_height">40dp</dimen>
+	<dimen name="live_title_height">40dp</dimen>
+</resources>
